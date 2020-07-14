@@ -16,8 +16,12 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
-                radius: 50.0,
-                backgroundImage: AssetImage('images/me.jpg.jpg'),
+                radius: 53.0,
+                backgroundColor: Colors.teal.shade200,
+                child: CircleAvatar(
+                  radius: 50.0,
+                  backgroundImage: AssetImage('images/me.jpg.jpg'),
+                ),
               ),
               Text(
                 'Alex Evans',
